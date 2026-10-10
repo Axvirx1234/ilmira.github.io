@@ -1,94 +1,158 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="id">
 <head>
-    <title>Berita 2</title>
+    <meta charset="UTF-8">
+    <title>Berita 2 - Website Ilmira</title>
     <link rel="icon" type="image/x-icon" href="WhatsApp Image 2026-04-28 at 10.55.57 AM (1).jpeg">
+    
+    <!-- CSS Bertema Ungu, Putih, Hitam dengan Hiasan Bintang (Sama seperti Index & Berita 1) -->
+    <style>
+        body {
+            background-color: #120a1f;
+            background-image: radial-gradient(white 1px, transparent 1px);
+            background-size: 30px 30px;
+            font-family: Arial, sans-serif;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Styling Tabel Utama */
+        table {
+            background-color: #ffffff;
+            color: #1a1a1a;
+            border-collapse: collapse;
+            border: 2px solid #6b21a8;
+            box-shadow: 0 0 20px rgba(139, 92, 246, 0.5);
+        }
+
+        /* Header */
+        td[colspan="2"][align="center"] {
+            background-color: #000000 !important;
+            color: #ffffff;
+            border-bottom: 3px solid #8b5cf6;
+        }
+
+        h1 {
+            color: #ffffff;
+            text-shadow: 0 0 10px #a855f7, 0 0 20px #a855f7;
+        }
+
+        /* Navigasi & Sidebar & Footer */
+        td[bgcolor="#261f3d"] {
+            background-color: #2e1065 !important;
+        }
+
+        /* Link Styling */
+        a {
+            color: #d8b4fe;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        a:hover {
+            color: #ffffff;
+            text-decoration: underline;
+            text-shadow: 0 0 8px #ffffff;
+        }
+
+        /* Hiasan Bintang pada Judul */
+        h3::before {
+            content: "★ ";
+            color: #a855f7;
+        }
+
+        h3::after {
+            content: " ✨";
+        }
+
+        /* Gambar Berita */
+        img {
+            border: 2px solid #8b5cf6;
+            border-radius: 6px;
+            margin-top: 10px;
+        }
+
+        /* Sidebar Tautan Eksternal */
+        td[valign="top"] {
+            background-color: #1e1b4b !important;
+            color: #ffffff;
+        }
+
+        td[valign="top"] a {
+            color: #e9d5ff;
+        }
+    </style>
 </head>
 
-<body bgcolor="darkgrey" background="images/background.svg">
-    <!-- Halaman web tanpa CSS. Murni hanya memakai HTML -->
+<body>
     <p>&nbsp;</p>
-    <table border="1" width="800px" cellpadding="12px" align="center" bgcolor="white">
+    <table border="1" width="800px" cellpadding="12px" align="center">
+        <!-- Bagian Atas (Nama Web) -->
         <tr>
-            <td colspan="2" align="center" bgcolor="Black">
-                <font color="white">
-                    <p>&nbsp;</p>
-                    <h1>Website Ilmira</h1>
-                    <p><em>ようこそ</em></p>
-                    <p>&nbsp;</p>
-                </font>
+            <td colspan="2" align="center">
+                <p>&nbsp;</p>
+                <h1>✨ Website Ilmira ✨</h1>
+                <p><em>ようこそ</em></p>
+                <p>&nbsp;</p>
             </td>
         </tr>
+        
+        <!-- Bagian Tombol Navigasi -->
         <tr>
-            <td colspan="2" bgcolor="#261f3d">
+            <td colspan="2">
                 <a href="./">Beranda</a> |
                 <a href="tentang-saya.html">Tentang Saya</a> |
                 <a href="sekolahku.html">Sekolahku</a> |
                 <a href="syair-lagu.html">Syair Lagu</a>
             </td>
         </tr>
-    <title>Berita ke 2</title>
-    <link rel="icon" type="image/x-icon" href="../favicon.ico">
-</head>
 
-<body bgcolor="darkgrey" background="../images/background.svg">
-    <!-- Halaman web tanpa CSS. Murni hanya memakai HTML -->
-    <p>&nbsp;</p>
-    <table border="1" width="800px" cellpadding="12px" align="center" bgcolor="white">
+        <!-- Bagian Konten Utama & Sidebar Kanan -->
         <tr>
-            <td bgcolor="black">
-                <h3 align="center">Berita 2</h3>
-            </td>            
-        </tr>
-        <tr>
-          <td>
-            <ol>
-              <li>Bagi warga Tangerang Kota yang ingin melakukan perpanjangan masa berlaku Surat Izin Mengemudi (SIM), Anda dapat mengunjungi Satpas atau pelayanan SIM Keliling Polrestro Tangerang Kota yang sudah disediakan.
+            <td width="75%" bgcolor="white">
+                <h3>Detail Berita 2</h3>
+                <ol>
+                    <li>
+                        Bagi warga Tangerang Kota yang ingin melakukan perpanjangan masa berlaku Surat Izin Mengemudi (SIM), Anda dapat mengunjungi Satpas atau pelayanan SIM Keliling Polrestro Tangerang Kota yang sudah disediakan.<br><br>
+                        Layanan SIM Keliling pada Senin (28/9/2026) dilaksanakan di dua lokasi, yaitu:<br>
+                        1. Plaza Shinta Mall Karawaci, pukul 08.00 - 12.00 WIB.<br>
+                        2. Ruko WOM Finance Pasar Baru, pukul 08.00 - 12.00 WIB.<br><br>
+                        Layanan SIM Keliling Polrestro Tangerang Kota hanya melayani permohonan perpanjangan SIM A dan C yang dapat dilakukan sebelum masa berlaku habis. Apabila masa berlaku SIM habis diberlakukan penerbitan seperti SIM Baru.<br><br>
+                        Untuk biaya perpanjangan sesuai dengan PP Nomor 60 Tahun 2016 tentang Penerimaan Negara Bukan Pajak adalah Rp 80.000,- untuk perpanjangan SIM A dan Rp. 75.000,- untuk perpanjangan SIM C.<br><br>
+                        Syarat perpanjangan SIM A atau C sebagai berikut:<br>
+                        1. Membawa KTP asli dan Foto Copy.<br>
+                        2. Membawa SIM asli yang masih berlaku.<br>
+                        3. Tes Psikologi SIM.<br>
+                        4. Surat Keterangan Sehat.
+                    </li>
+                </ol>
+                <br>
+                <img src="sim-keliling-tangerang-kota-senin-28-september-hadir-di-2-lokasi_327905.jpg" alt="SIM Keliling" width="250">
+                <p style="margin-top: 20px;">
+                    <a href="index.html" style="color: #7c3aed; font-weight: bold;">← Kembali ke Beranda</a>
+                </p>
+            </td>
 
-Layanan SIM Keliling pada Senin (28/9/2026)) dilaksanakan di dua lokasi, yaitu:
-
-1. Plaza Shinta Mall Karawaci, pukul 08.00 - 12.00 WIB.
-
-2. Ruko WOM Finance Pasar Baru, pukul 08.00 - 12.00 WIB.
-
-Layanan SIM Keliling Polrestro Tangerang Kota hanya melayani permohonan perpanjangan SIM A dan C yang dapat dilakukan sebelum masa berlaku habis. Apabila masa berlaku SIM habis diberlakukan penerbitan seperti SIM Baru.
-
-Untuk biaya perpanjangan sesuai dengan PP Nomor 60 Tahun 2016 tentang Penerimaan Negara Bukan Pajak adalah Rp 80.000,- untuk perpanjangan SIM A dan Rp. 75.000,- untuk perpanjangan SIM C.
-
-Syarat perpanjangan SIM A atau C sebagai berikut:
-
-1. Membawa KTP asli dan Foto Copy.
-
-2. Membawa SIM asli yang masih berlaku.
-
-3. Tes Psikologi SIM.
-
-4. Surat Keterangan Sehat.</li>
-             <img src="sim-keliling-tangerang-kota-senin-28-september-hadir-di-2-lokasi_327905.jpg" alt="SIM Keliling" width="250">
-            </ol>
-            <a href="index.html">Kembali ke Beranda.</a>
-             </td>
-            <td width="25%" valign="top" bgcolor="#261f3d">
-                <font color="white">
-                <p>Tautan eksternal</p>
+            <!-- Bagian Samping Kanan (Tautan Eksternal) -->
+            <td width="25%" valign="top">
+                <p><strong>★ Tautan Eksternal</strong></p>
                 <ol>
                     <li><a href="https://axvirx1234.github.io/Axvirx.github.io/">Website Ilmira</a></li>
                     <li><a href="https://www.github.com">Github</a></li>
                     <li><a href="https://www.wikipedia.org">Wikipedia</a></li>
                     <li><a href="https://www.w3schools.com">W3Schools</a></li>
-                </font>
                 </ol>
             </td>
         </tr>
+
+        <!-- Bagian Copyright Bawah -->
         <tr>
-    </table>
-   <p>&nbsp;</p>
-      <td colspan="2" align="right" bgcolor="#261f3d">
-                <font color="white"><small>&copy; Copyright Ilmira Ramadhina Putri, 2026.</small></font>
+            <td colspan="2" align="right">
+                <small>&copy; Copyright Ilmira Ramadhina Putri, 2026.</small>
             </td>
         </tr>
     </table>
     <p>&nbsp;</p>
 </body>
-    
 </html>
