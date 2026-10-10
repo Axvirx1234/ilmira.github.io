@@ -1,27 +1,109 @@
-
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <title>Beranda</title>
+    <meta charset="UTF-8">
+    <title>Beranda - Website Ilmira</title>
     <link rel="icon" type="image/x-icon" href="WhatsApp Image 2026-04-28 at 10.55.57 AM (1).jpeg">
+    
+    <!-- Tambahan CSS Bertema Ungu, Putih, Hitam dengan Hiasan Bintang -->
+    <style>
+        body {
+            background-color: #120a1f; /* Ungu sangat gelap / hampir hitam */
+            background-image: radial-gradient(white 1px, transparent 1px);
+            background-size: 30px 30px; /* Efek taburan bintang di background */
+            font-family: Arial, sans-serif;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Styling Tabel Utama */
+        table {
+            background-color: #ffffff;
+            color: #1a1a1a;
+            border-collapse: collapse;
+            border: 2px solid #6b21a8; /* Garis ungu */
+            box-shadow: 0 0 20px rgba(139, 92, 246, 0.5); /* Efek glowing ungu */
+        }
+
+        /* Header */
+        td[colspan="2"][align="center"] {
+            background-color: #000000 !important;
+            color: #ffffff;
+            border-bottom: 3px solid #8b5cf6;
+        }
+
+        h1 {
+            color: #ffffff;
+            text-shadow: 0 0 10px #a855f7, 0 0 20px #a855f7;
+        }
+
+        /* Navigasi & Sidebar & Footer */
+        td[bgcolor="#261f3d"] {
+            background-color: #2e1065 !important; /* Ungu gelap elegan */
+        }
+
+        /* Link Styling */
+        a {
+            color: #d8b4fe; /* Ungu muda */
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        a:hover {
+            color: #ffffff;
+            text-decoration: underline;
+            text-shadow: 0 0 8px #ffffff;
+        }
+
+        /* Hiasan Bintang pada Judul Berita / Elemen */
+        h3::before {
+            content: "★ ";
+            color: #a855f7;
+        }
+
+        h3::after {
+            content: " ✨";
+        }
+
+        /* Gambar Berita */
+        img {
+            border: 2px solid #8b5cf6;
+            border-radius: 6px;
+        }
+
+        hr {
+            border: 0;
+            height: 1px;
+            background: #8b5cf6;
+            margin: 20px 0;
+        }
+
+        /* Sidebar Tautan Eksternal */
+        td[valign="top"] {
+            background-color: #1e1b4b !important;
+            color: #ffffff;
+        }
+
+        td[valign="top"] a {
+            color: #e9d5ff;
+        }
+    </style>
 </head>
 
-<body bgcolor="darkgrey" background="images/background.svg">
-    <!-- Halaman web tanpa CSS. Murni hanya memakai HTML -->
+<body>
     <p>&nbsp;</p>
-    <table border="1" width="800px" cellpadding="12px" align="center" bgcolor="white">
+    <table border="1" width="800px" cellpadding="12px" align="center">
         <tr>
-            <td colspan="2" align="center" bgcolor="Black">
-                <font color="white">
-                    <p>&nbsp;</p>
-                    <h1>Website Ilmira</h1>
-                    <p><em>ようこそ</em></p>
-                    <p>&nbsp;</p>
-                </font>
+            <td colspan="2" align="center">
+                <p>&nbsp;</p>
+                <h1>✨ Website Ilmira ✨</h1>
+                <p><em>ようこそ</em></p>
+                <p>&nbsp;</p>
             </td>
         </tr>
         <tr>
-            <td colspan="2" bgcolor="#261f3d">
+            <td colspan="2">
                 <a href="./">Beranda</a> |
                 <a href="tentang-saya.html">Tentang Saya</a> |
                 <a href="sekolahku.html">Sekolahku</a> |
@@ -29,14 +111,14 @@
             </td>
         </tr>
         <tr>
-            <td width="75%">
+            <td width="75%" bgcolor="white">
                 <!-- Content utama -->
 
                 <h3>Siswa SMA Bermasalah di Banten Akan Dibina di Barak TNI, Kadisdik: Oktober, Diadakan di 3 Lokasi</h3>
                 <img src="693bb573b1f77.jpg" alt="Siswa Berbaris" width="250">
                 <p align="right"><small><em>Jumat, 28 September 2026</em></small></p>
                 <p>Pemerintah Provinsi Banten akan melibatkan TNI untuk membina siswa SMA sederajat yang melakukan pelanggaran. Program tersebut rencananya dimulai Oktober 2026 dan berlangsung selama dua hari. Kepala Dinas Pendidikan dan Kebudayaan (Disdikbud) Banten Jamaluddin mengatakan, pembinaan akan dilakukan di tiga lokasi yang melibatkan satuan TNI di Banten. "Itu (pengiriman siswa bermasalah) rencananya di bulan Oktober ini, insya Allah. Ya kami adakan di tiga titik yang menjadi lokasi pembinaan," kata Jamaluddin kepada wartawan, Jumat (25/9/2026).</p>
-                <p><a href="berita1.html">Selanjutnya</a></p>
+                <p><a href="berita1.html" style="color: #7c3aed; font-weight: bold;">Selanjutnya</a></p>
 
                 <hr>
 
@@ -44,25 +126,23 @@
                 <img src="sim-keliling-tangerang-kota-senin-28-september-hadir-di-2-lokasi_327905.jpg" alt="SIM Keliling" width="250">
                 <p align="right"><small><em>Senin, 28 September 2026</em></small></p>
                 <p>Bagi warga Tangerang Kota yang ingin melakukan perpanjangan masa berlaku Surat Izin Mengemudi (SIM), Anda dapat mengunjungi Satpas atau pelayanan SIM Keliling Polrestro Tangerang Kota yang sudah disediakan.</p>
-                <p><a href="berita2.html">Selanjutnya</a></p>
+                <p><a href="berita2.html" style="color: #7c3aed; font-weight: bold;">Selanjutnya</a></p>
 
                 <!-- Akhir dari content utama -->
             </td>
-            <td width="25%" valign="top" bgcolor="#261f3d">
-                <font color="white">
-                <p>Tautan eksternal</p>
+            <td width="25%" valign="top">
+                <p><strong>★ Tautan Eksternal</strong></p>
                 <ol>
                     <li><a href="https://axvirx1234.github.io/Axvirx.github.io/">Website Ilmira</a></li>
                     <li><a href="https://instagram.com/0nly.ilmira">Instagram</a></li>
                     <li><a href="https://tiktok.com/axvirx_">Tiktok</a></li>
                     <li><a href="https://www.hoyolab.com/accountCenter/postList?id=351200453">Hoyolab</a></li>
-                </font>
                 </ol>
             </td>
         </tr>
         <tr>
-            <td colspan="2" align="right" bgcolor="#261f3d">
-                <font color="white"><small>&copy; Copyright Ilmira Ramadhina Putri, 2026.</small></font>
+            <td colspan="2" align="right">
+                <small>&copy; Copyright Ilmira Ramadhina Putri, 2026.</small>
             </td>
         </tr>
     </table>
