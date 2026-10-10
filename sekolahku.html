@@ -1,223 +1,324 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <title>Sekolahku</title>
+    <meta charset="UTF-8">
+    <title>Sekolahku - Website Ilmira</title>
     <link rel="icon" type="image/x-icon" href="images/akaashi.jpg">
+    
+    <!-- CSS Bertema Ungu, Putih, Hitam dengan Hiasan Bintang -->
+    <style>
+        body {
+            background-color: #120a1f;
+            background-image: radial-gradient(white 1px, transparent 1px);
+            background-size: 30px 30px;
+            font-family: Arial, sans-serif;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Styling Tabel Utama */
+        table {
+            background-color: #ffffff;
+            color: #1a1a1a;
+            border-collapse: collapse;
+            border: 2px solid #6b21a8;
+            box-shadow: 0 0 20px rgba(139, 92, 246, 0.5);
+        }
+
+        /* Header */
+        td[colspan="2"][align="center"] {
+            background-color: #000000 !important;
+            color: #ffffff;
+            border-bottom: 3px solid #8b5cf6;
+        }
+
+        h1 {
+            color: #ffffff;
+            text-shadow: 0 0 10px #a855f7, 0 0 20px #a855f7;
+        }
+
+        /* Navigasi & Sidebar & Footer */
+        td[bgcolor="#261f3d"] {
+            background-color: #2e1065 !important;
+        }
+
+        /* Link Styling */
+        a {
+            color: #d8b4fe;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        a:hover {
+            color: #ffffff;
+            text-decoration: underline;
+            text-shadow: 0 0 8px #ffffff;
+        }
+
+        /* Hiasan Bintang pada Judul */
+        h2::before, h3::before {
+            content: "★ ";
+            color: #a855f7;
+        }
+
+        h2::after, h3::after {
+            content: " ✨";
+        }
+
+        /* Gambar Sekolah */
+        img {
+            border: 2px solid #8b5cf6;
+            border-radius: 6px;
+            margin: 10px 0;
+            max-width: 100%;
+            height: auto;
+        }
+
+        hr {
+            border: 0;
+            height: 1px;
+            background: #8b5cf6;
+            margin: 20px 0;
+        }
+
+        /* Sidebar Tautan Eksternal */
+        td[valign="top"] {
+            background-color: #1e1b4b !important;
+            color: #ffffff;
+        }
+
+        td[valign="top"] a {
+            color: #e9d5ff;
+        }
+    </style>
 </head>
 
-<body bgcolor="darkgrey" background="images/background.svg">
-    <!-- Halaman web tanpa CSS. Murni hanya memakai HTML -->
+<body>
     <p>&nbsp;</p>
-    <table border="1" width="800px" cellpadding="12px" align="center" bgcolor="white">
+    <table border="1" width="800px" cellpadding="12px" align="center">
+        <!-- Bagian Atas (Nama Web) -->
         <tr>
-            <td bgcolor="black">
-                <font color="white">
-                <h3 align="center">Sekolahku</h3>
-                </font>
-            </td>            
-        </tr>
-        <tr>
-          <td>
-            <ol>
-                <h2>Tentang Sekolahku</h2>
-                <img src="foto guru nesta website.jpg" alt="Sekolahku">
-          <div class="sejarah-smkn1-tangerang">
-    <ul>
-        <li>Dengan dilatarbelakangi oleh keinginan masyarakat dan tuntutan zaman serta kondisi daerah Tangerang yang semakin pesat perkembangannya, terutama dalam bidang ekonomi, industri, serta perdagangan, maka Pemerintah Daerah yang menyadari semua itu segera membentuk sebuah panitia pembina SMEA Persiapan Negeri Tangerang pada tahun 1966 dengan Surat Keputusan Bupati Kepala Daerah Tk II Kabupaten Tangerang Nomor 139/22/Kpts/1966 tanggal 20 Desember 1966 yang susunannya sebagai berikut:
-            <ul>
-                <li><strong>Pelindung:</strong> Panca Tunggal</li>
-                <li><strong>Ketua Umum:</strong> Bupati Kepala Daerah Tk II Tangerang, Bpk. H. Muhdi</li>
-                <li><strong>Ketua Harian:</strong> Drs. H. M.A. Thahiruddin (Anggota DPR)</li>
-                <li><strong>Wakil Ketua Harian:</strong> Aman Miftahidayat</li>
-                <li><strong>Sekretaris:</strong> H. Moch. Ma’sum S. Salim, Syadeli</li>
-                <li><strong>Seksi Usaha / Kesejahteraan:</strong> Berli Djajadikarja, BA., Ishak Brata</li>
-                <li><strong>Seksi Pendidikan:</strong> Setijono, BA., Achmad Brata</li>
-                <li><strong>Seksi Bangunan:</strong> Tojib Kartakusuma</li>
-                <li><strong>Seksi Publikasi:</strong> Hasan Dzakaria</li>
-            </ul>
-        </li>
-        <li>Panitia ini selanjutnya membentuk SMEA Persiapan Negeri Tangerang dengan nama <strong>SMEA Orde Baru</strong>.</li>
-        <li>Pada bulan Januari 1967 mulai menerima siswa baru satu kelas sebanyak 40 orang dengan tempat belajar di gedung bekas Perguruan BAPERKI yang berlokasi di Jalan Kisamaun Babakan Ledeng Tangerang (RT 01 / RK 07, Desa Sukasari, Kecamatan Tangerang, Kabupaten Tangerang).</li>
-        <li>Dengan Surat Keputusan Bupati Kepala Daerah Tk II Tangerang Nomor 102/17/Kpts/Huk/1967 tanggal 1 Oktober 1967, bangunan eks BAPERKI tersebut diserahkan secara resmi kepada SMEA Orde Baru (Persiapan Negeri) Tangerang.</li>
-        <li>Melalui SK Menteri P dan K Republik Indonesia Nomor 22/UKK/68 tanggal 31 Januari 1968, terhitung mulai tanggal 1 Januari 1968, SMEA Orde Baru resmi diubah menjadi <strong>SMEA Negeri Tangerang</strong>. Pejabat sementara pimpinan sekolah adalah Ibu Ida Asidah Achmad, BA (yang pada waktu itu tugas resminya sebagai Kepala Kantor PMD Kabupaten Tangerang / sekarang Bangdes) dengan fasilitas sebagai berikut:
-            <ul>
-                <li>Tenaga pengajar honorer 20 orang.</li>
-                <li>Gedung 1 unit yang disediakan Pemda setempat yang terdiri dari 18 ruangan kelas, 1 ruang kepala sekolah, 1 ruang tata usaha, 1 ruang gudang, 2 ruang WC dan kamar mandi, 1 rumah penjaga, dan 1 lapangan olahraga berikut meubelernya.</li>
-            </ul>
-        </li>
-        <li>SMEA Negeri Tangerang dimulai dengan 2 kelas (1 kelas 1 dan 1 kelas 2) dengan jumlah murid rata-rata 40 orang.</li>
-        <li>Biaya penyelenggaraan tahun ajaran 1968 dibebankan pada pasal 2, pasal 4, dan pasal 17 Anggaran Pendapatan dan Belanja Departemen Pendidikan dan Kebudayaan Republik Indonesia.</li>
-        <li>Pada tahun 1968, SMEA Negeri Tangerang mendapat tambahan tenaga pengajar yaitu Bapak Soehardi Adibroto. Pada tahun 1971, Pemerintah mengangkat Kepala Sekolah tetap yaitu Bapak Drs. Ateng Suharis.</li>
-        <li>Dengan SK Kepala Kantor Wilayah Depdikbud Provinsi DT I Jawa Barat tanggal 30 Oktober 1979 Nomor 2324/I.02.I/c.79, pada hari Senin tanggal 19 Desember 1979 dilaksanakan serah terima jabatan dari Bapak Drs. Ateng Suharis kepada Bapak RM. Abdullah Nu’man sebagai Kepala SMEA Negeri Tangerang.</li>
-        <li>Sejak tahun 1981, perkembangan siswa sangat pesat sehingga bangunan yang ada tidak mampu lagi menampungnya. Melalui upaya yang keras, pihak sekolah memohon lokasi yang memadai, dan pada tahun 1982 SMEA Negeri Tangerang diberi tanah lokasi bangunan oleh Pemerintah Kabupaten Tangerang yang terletak di Cikokol.</li>
-        <li>Guna memperjelas status tanah dan kepastian hukum di Cikokol, melalui Surat Keputusan Gubernur Kepala Daerah RK I Jawa Barat Nomor 162/DA.PHT/HP/1984 tanggal 11 September 1984, terbit sertifikat Hak Pakai seluas 14.683 m² untuk SMEA Negeri Tangerang. Perkembangan jumlah kelas terus meningkat hingga mencapai 30 kelas pada tahun 1985/1986.</li>
-        <li>Pada tahun ajaran 1988/1989, kegiatan belajar mengajar di Babakan secara resmi dipindahkan ke Cikokol, dan gedung lama di Babakan diserahkan kepada SMP Negeri 8 Tangerang (sekarang SMP Negeri 4 Kota Tangerang).</li>
-        <li>Pada hari Selasa, 19 Juli 1988, diadakan serah terima jabatan Kepala Sekolah dari Bpk. RM. Abdullah Nu’man kepada Bpk. Drs. Doddy Taryana. Berdasarkan SK Mendikbud RI tanggal 30 Desember 1987 Nomor 818/I.02 Kep/C/1987, Bpk. RM. Abdullah Nu’man diangkat menjadi Kepala SMEA Negeri Serang.</li>
-        <li>Pada tahun pelajaran 1990/1991, terjadi pergantian kepemimpinan kepada Drs. H. Arriffien NS. Karena beliau dalam keadaan sakit, penugasan sempat dipegang oleh Bapak Drs. R.A. Maghfur (Kepala SMT Pertanian Tangerang) sebagai pejabat pelaksana tugas melalui SK Nomor 999/102/Kep/C.1991.</li>
-        <li>Setelah Bapak Drs. H. Arriffien NS sehat, beliau kembali memimpin hingga 6 Agustus 1994, sebelum akhirnya diangkat menjadi Kepala SMEA Negeri 1 Bandung per 16 Juni 1994.</li>
-        <li>Untuk mengisi kekosongan, Kanwil Depdikbud Provinsi Jawa Barat menunjuk Bapak Drs. E. Sudirman (Kepala STM Negeri Tangerang) sebagai Pejabat Yang Melaksanakan Tugas (PYMT) berdasarkan SK Nomor 646/102.Kep/c.1994 tanggal 1 Agustus 1994.</li>
-        <li>Bapak Drs. Sudirman menjabat hingga 5 April 1995 dan digantikan oleh Bapak Drs. H. Panut melalui SK Mendikbud Nomor 94042/A2.I.2/c.1994, yang memimpin cukup lama hingga tahun 2004 dengan jumlah rombongan belajar mencapai 33 kelas.</li>
-        <li>Profil akhir era SMEA Negeri Tangerang di bawah kepemimpinan Drs. H. Panut:
-            <ul>
-                <li><strong>Nama Sekolah:</strong> SMKN 1 Tangerang</li>
-                <li><strong>Alamat Sekolah:</strong> Jl. Perintis Kemerdekaan II Tangerang</li>
-                <li><strong>Telepon:</strong> 021-5522534</li>
-                <li><strong>Nomor Statistik Sekolah:</strong> 341020401001</li>
-                <li><strong>Nomor Kode Angka Rutin:</strong> 0916</li>
-                <li><strong>Guru Tetap dan GTT:</strong> 61 / 5</li>
-                <li><strong>Jumlah Pegawai:</strong> 27 orang</li>
-                <li><strong>Rumpun Keahlian:</strong>
-                    <ul>
-                        <li>Keuangan (Program Studi Akuntansi)</li>
-                        <li>Perdagangan (Program Studi Manajemen Pemasaran / Manajemen Bisnis)</li>
-                        <li>Administrasi Perkantoran (Program Studi Ketatausahaan / Kesekretarisan)</li>
-                    </ul>
-                </li>
-            </ul>
-        </li>
-        <li>Pada tahun ajaran 1997/1998, nomenklatur SMEA Negeri Tangerang resmi berubah nama menjadi <strong>SMK Negeri 1 Tangerang</strong>.</li>
-        <li>Pada tanggal 16 Juli 2004, terjadi pergantian Kepala Sekolah dari Drs. H. Panut (pensiun) kepada Drs. Heryana berdasarkan SK Walikota Tangerang Nomor 821/Kep.88.BKD/2004.</li>
-        <li>Mulai tahun ajaran 2004/2005, SMK Negeri 1 Tangerang membuka 2 Kelompok Keahlian:
-            <ul>
-                <li><strong>Bisnis dan Manajemen:</strong>
-                    <ul>
-                        <li>Administrasi Perkantoran (Terakreditasi A)</li>
-                        <li>Akuntansi (Terakreditasi A)</li>
-                        <li>Penjualan / Pemasaran (Terakreditasi A)</li>
-                    </ul>
-                </li>
-                <li><strong>Teknik Informatika:</strong>
-                    <ul>
-                        <li>Multimedia (Terakreditasi B)</li>
-                        <li>Teknik Komputer dan Jaringan (Terakreditasi B)</li>
-                    </ul>
-                </li>
-            </ul>
-        </li>
-        <li>Tanggal 5 Januari 2015, Bapak Drs. H. Heryana diangkat menjadi Pengawas, dan posisi Kepala Sekolah dilanjutkan oleh Bapak Drs. H. Surya Mulyana hingga pertengahan Februari 2016.</li>
-        <li>Kepala Sekolah berikutnya yang pernah dan sedang memimpin SMKN 1 Tangerang:
-            <ul>
-                <li>Ibu Ariasni</li>
-                <li>Ibu Retno Andayani (PLT)</li>
-                <li>Bapak Hirafahtia</li>
-                <li>Ibu Endah Resmiati (PLT)</li>
-                <li>Bapak Arif Prio Wibowo, M.Pd (mulai bertugas sejak 16 Desember 2022 hingga sekarang)</li>
-            </ul>
-        </li>
-    </ul>
-
-    <hr>
-
-    <h3>Struktur Pendidik & Tenaga Kependidikan</h3>
-    <ul>
-        <li><strong>Arif Prio Wibowo, M.Pd</strong> (Kepala Sekolah)</li>
-        <li><strong>Daftar Guru-Guru:</strong>
-            <ul>
-                <li>Drs. Aep Gumiwa, M.M.</li>
-                <li>Drs. Suparno</li>
-                <li>Dra. Edeh Kurniati</li>
-                <li>Herlina, S.Pd.</li>
-                <li>Dra. Lilis Huzanah</li>
-                <li>Dra. Yenny Rismayani</li>
-                <li>Dra. Mimin Aminah</li>
-                <li>Ma’mun, S.Pd.</li>
-                <li>Dra. Ropiah</li>
-                <li>Drs. Syafrinal</li>
-                <li>Sukimin, S.Pd.</li>
-                <li>Waluyo, S.Pd.</li>
-                <li>Dwi Haryanto, S.Pd.</li>
-                <li>Era Marjianti, S.Pd.</li>
-                <li>Neneng Kurniamala, S.Pd.</li>
-                <li>Mawan Agus Nugroho, S.Kom., M.Kom.</li>
-                <li>Ruhimat, S.Pd., M.M.</li>
-                <li>Venny Tauresia, M.Pd.</li>
-                <li>Drs. John Jedi Roland</li>
-                <li>Sri Sumartinah, S.S.</li>
-                <li>Dwi Dona Kustiawati, S.Pd., M.Pd.</li>
-                <li>Sumyati, S.Pd., M.Pd.</li>
-                <li>Dra. Rini Saraswati, M.Pd.</li>
-                <li>Ishako Iskandar, S.Kom.</li>
-                <li>Farita Nurmala, M.Pd.</li>
-                <li>Aah Hilyati, S.Pd.</li>
-                <li>Rokilah, S.Pd.</li>
-                <li>Meslise Rahnila, S.Pd.</li>
-                <li>Drs. Khairu Umat</li>
-                <li>Drs. Agus Herawan, M.M.</li>
-                <li>Muiyah, S.Pd.</li>
-                <li>Hery Faturochman, S.S.</li>
-                <li>Ika Rosika, S.Pd.</li>
-                <li>Ritayanah Tenrijiji, S.Pd.</li>
-                <li>Tuti Alawiyah, S.Pd.</li>
-                <li>Onnoveri, S.Pd.</li>
-                <li>Dra. Sudiyanti</li>
-                <li>Drs. Rasman Siahaan, M.M.</li>
-                <li>Jaja, S.Pd.</li>
-                <li>Drs. Marganda Simamora</li>
-                <li>Else Wijayanti, S.Pd.</li>
-                <li>Enny Fitriani, S.Pd.</li>
-                <li>Mira Cristiana, S.Kom.</li>
-                <li>Ade Sevianto Dwitama, S.Si.</li>
-                <li>Yanti Ariani, S.Pd.</li>
-                <li>Arlia Noviana, S.Pd.I.</li>
-                <li>Siti Fauzia Rahmah, S.Pd.</li>
-                <li>Suherman, S.Kom.</li>
-                <li>Sugianto, S.Pd.</li>
-                <li>Dedi Agustian, S.Pd.</li>
-                <li>Drs. Ricky Maxie Suawa</li>
-                <li>Drs. Rakhmat Gunawan</li>
-                <li>Sudiro, S.Pd.K.</li>
-                <li>Muhammad Ikhsan Fadhilah, S.Pd.</li>
-                <li>Ganjar Candra Sumindar, S.Pd.</li>
-                <li>Asri Marheni, S.Pd.</li>
-                <li>Hendrik Herdiansyah, M.Kom.</li>
-                <li>Budi, S.Si., M.Kom.</li>
-                <li>Drs. Tedi Sanjaya</li>
-                <li>Imas Maesyaroh, S.Pd.</li>
-                <li>Cartika Wibowo, S.Kom.</li>
-                <li>Rifka Hijah Aryani, M.Kom.</li>
-                <li>Laili Damayanti, S.Pd.I.</li>
-                <li>Fitri Roeri Zuliwati, M.Pd.</li>
-                <li>Heru Prasetiawan, M.Kom.</li>
-                <li>Inne Pratiwi, S.Pd.</li>
-                <li>Suci Rahmadiah, S.E.</li>
-                <li>Putri Pramita Swari, S.Pd.</li>
-                <li>Anjar Tirtayansyah, S.Kom.</li>
-                <li>Habibatulah Rifah Mahyunda, S.Pd.</li>
-                <li>Ulfia Nurjanah</li>
-                <li>Ariani Devita Sari</li>
-                <li>Siti Nurjanah</li>
-                <li>Iwan Mulyawan, S.Kom.</li>
-                <li>Rita Febriana Kurahman, S.Pd.</li>
-            </ul>
-        </li>
-    </ul>
-</div>
-        </ol>
-            <a href="index.html">Kembali ke Beranda.</a>
-             </td>
-            <td width="25%" valign="top" bgcolor="#261f3d">
-                <font color="white">
-                <!-- Akhir dari content utama -->
+            <td colspan="2" align="center">
+                <p>&nbsp;</p>
+                <h1>✨ Website Ilmira ✨</h1>
+                <p><em>ようこそ</em></p>
+                <p>&nbsp;</p>
             </td>
-            <td width="25%" valign="top" bgcolor="#261f3d">
-                <font color="white">
-                <p>Tautan eksternal</p>
+        </tr>
+        
+        <!-- Bagian Tombol Navigasi -->
+        <tr>
+            <td colspan="2">
+                <a href="./">Beranda</a> |
+                <a href="tentang-saya.html">Tentang Saya</a> |
+                <a href="sekolahku.html">Sekolahku</a> |
+                <a href="syair-lagu.html">Syair Lagu</a>
+            </td>
+        </tr>
+
+        <!-- Bagian Konten Utama & Sidebar Kanan -->
+        <tr>
+            <td width="75%" bgcolor="white">
+                <h2>Tentang Sekolahku</h2>
+                <img src="foto guru nesta website.jpg" alt="Sekolahku" width="300">
+                
+                <div class="sejarah-smkn1-tangerang">
+                    <ul>
+                        <li>Dengan dilatarbelakangi oleh keinginan masyarakat dan tuntutan zaman serta kondisi daerah Tangerang yang semakin pesat perkembangannya, terutama dalam bidang ekonomi, industri, serta perdagangan, maka Pemerintah Daerah yang menyadari semua itu segera membentuk sebuah panitia pembina SMEA Persiapan Negeri Tangerang pada tahun 1966 dengan Surat Keputusan Bupati Kepala Daerah Tk II Kabupaten Tangerang Nomor 139/22/Kpts/1966 tanggal 20 Desember 1966 yang susunannya sebagai berikut:
+                            <ul>
+                                <li><strong>Pelindung:</strong> Panca Tunggal</li>
+                                <li><strong>Ketua Umum:</strong> Bupati Kepala Daerah Tk II Tangerang, Bpk. H. Muhdi</li>
+                                <li><strong>Ketua Harian:</strong> Drs. H. M.A. Thahiruddin (Anggota DPR)</li>
+                                <li><strong>Wakil Ketua Harian:</strong> Aman Miftahidayat</li>
+                                <li><strong>Sekretaris:</strong> H. Moch. Ma’sum S. Salim, Syadeli</li>
+                                <li><strong>Seksi Usaha / Kesejahteraan:</strong> Berli Djajadikarja, BA., Ishak Brata</li>
+                                <li><strong>Seksi Pendidikan:</strong> Setijono, BA., Achmad Brata</li>
+                                <li><strong>Seksi Bangunan:</strong> Tojib Kartakusuma</li>
+                                <li><strong>Seksi Publikasi:</strong> Hasan Dzakaria</li>
+                            </ul>
+                        </li>
+                        <li>Panitia ini selanjutnya membentuk SMEA Persiapan Negeri Tangerang dengan nama <strong>SMEA Orde Baru</strong>.</li>
+                        <li>Pada bulan Januari 1967 mulai menerima siswa baru satu kelas sebanyak 40 orang dengan tempat belajar di gedung bekas Perguruan BAPERKI yang berlokasi di Jalan Kisamaun Babakan Ledeng Tangerang (RT 01 / RK 07, Desa Sukasari, Kecamatan Tangerang, Kabupaten Tangerang).</li>
+                        <li>Dengan Surat Keputusan Bupati Kepala Daerah Tk II Tangerang Nomor 102/17/Kpts/Huk/1967 tanggal 1 Oktober 1967, bangunan eks BAPERKI tersebut diserahkan secara resmi kepada SMEA Orde Baru (Persiapan Negeri) Tangerang.</li>
+                        <li>Melalui SK Menteri P dan K Republik Indonesia Nomor 22/UKK/68 tanggal 31 Januari 1968, terhitung mulai tanggal 1 Januari 1968, SMEA Orde Baru resmi diubah menjadi <strong>SMEA Negeri Tangerang</strong>. Pejabat sementara pimpinan sekolah adalah Ibu Ida Asidah Achmad, BA (yang pada waktu itu tugas resminya sebagai Kepala Kantor PMD Kabupaten Tangerang / sekarang Bangdes) dengan fasilitas sebagai berikut:
+                            <ul>
+                                <li>Tenaga pengajar honorer 20 orang.</li>
+                                <li>Gedung 1 unit yang disediakan Pemda setempat yang terdiri dari 18 ruangan kelas, 1 ruang kepala sekolah, 1 ruang tata usaha, 1 ruang gudang, 2 ruang WC dan kamar mandi, 1 rumah penjaga, dan 1 lapangan olahraga berikut meubelernya.</li>
+                            </ul>
+                        </li>
+                        <li>SMEA Negeri Tangerang dimulai dengan 2 kelas (1 kelas 1 dan 1 kelas 2) dengan jumlah murid rata-rata 40 orang.</li>
+                        <li>Biaya penyelenggaraan tahun ajaran 1968 dibebankan pada pasal 2, pasal 4, dan pasal 17 Anggaran Pendapatan dan Belanja Departemen Pendidikan dan Kebudayaan Republik Indonesia.</li>
+                        <li>Pada tahun 1968, SMEA Negeri Tangerang mendapat tambahan tenaga pengajar yaitu Bapak Soehardi Adibroto. Pada tahun 1971, Pemerintah mengangkat Kepala Sekolah tetap yaitu Bapak Drs. Ateng Suharis.</li>
+                        <li>Dengan SK Kepala Kantor Wilayah Depdikbud Provinsi DT I Jawa Barat tanggal 30 Oktober 1979 Nomor 2324/I.02.I/c.79, pada hari Senin tanggal 19 Desember 1979 dilaksanakan serah terima jabatan dari Bapak Drs. Ateng Suharis kepada Bapak RM. Abdullah Nu’man sebagai Kepala SMEA Negeri Tangerang.</li>
+                        <li>Sejak tahun 1981, perkembangan siswa sangat pesat sehingga bangunan yang ada tidak mampu lagi menampungnya. Melalui upaya yang keras, pihak sekolah memohon lokasi yang memadai, dan pada tahun 1982 SMEA Negeri Tangerang diberi tanah lokasi bangunan oleh Pemerintah Kabupaten Tangerang yang terletak di Cikokol.</li>
+                        <li>Guna memperjelas status tanah dan kepastian hukum di Cikokol, melalui Surat Keputusan Gubernur Kepala Daerah RK I Jawa Barat Nomor 162/DA.PHT/HP/1984 tanggal 11 September 1984, terbit sertifikat Hak Pakai seluas 14.683 m² untuk SMEA Negeri Tangerang. Perkembangan jumlah kelas terus meningkat hingga mencapai 30 kelas pada tahun 1985/1986.</li>
+                        <li>Pada tahun ajaran 1988/1989, kegiatan belajar mengajar di Babakan secara resmi dipindahkan ke Cikokol, dan gedung lama di Babakan diserahkan kepada SMP Negeri 8 Tangerang (sekarang SMP Negeri 4 Kota Tangerang).</li>
+                        <li>Pada hari Selasa, 19 Juli 1988, diadakan serah terima jabatan Kepala Sekolah dari Bpk. RM. Abdullah Nu’man kepada Bpk. Drs. Doddy Taryana. Berdasarkan SK Mendikbud RI tanggal 30 Desember 1987 Nomor 818/I.02 Kep/C/1987, Bpk. RM. Abdullah Nu’man diangkat menjadi Kepala SMEA Negeri Serang.</li>
+                        <li>Pada tahun pelajaran 1990/1991, terjadi pergantian kepemimpinan kepada Drs. H. Arriffien NS. Karena beliau dalam keadaan sakit, penugasan sempat dipegang oleh Bapak Drs. R.A. Maghfur (Kepala SMT Pertanian Tangerang) sebagai pejabat pelaksana tugas melalui SK Nomor 999/102/Kep/C.1991.</li>
+                        <li>Setelah Bapak Drs. H. Arriffien NS sehat, beliau kembali memimpin hingga 6 Agustus 1994, sebelum akhirnya diangkat menjadi Kepala SMEA Negeri 1 Bandung per 16 Juni 1994.</li>
+                        <li>Untuk mengisi kekosongan, Kanwil Depdikbud Provinsi Jawa Barat menunjuk Bapak Drs. E. Sudirman (Kepala STM Negeri Tangerang) sebagai Pejabat Yang Melaksanakan Tugas (PYMT) berdasarkan SK Nomor 646/102.Kep/c.1994 tanggal 1 Agustus 1994.</li>
+                        <li>Bapak Drs. Sudirman menjabat hingga 5 April 1995 dan digantikan oleh Bapak Drs. H. Panut melalui SK Mendikbud Nomor 94042/A2.I.2/c.1994, yang memimpin cukup lama hingga tahun 2004 dengan jumlah rombongan belajar mencapai 33 kelas.</li>
+                        <li>Profil akhir era SMEA Negeri Tangerang di bawah kepemimpinan Drs. H. Panut:
+                            <ul>
+                                <li><strong>Nama Sekolah:</strong> SMKN 1 Tangerang</li>
+                                <li><strong>Alamat Sekolah:</strong> Jl. Perintis Kemerdekaan II Tangerang</li>
+                                <li><strong>Telepon:</strong> 021-5522534</li>
+                                <li><strong>Nomor Statistik Sekolah:</strong> 341020401001</li>
+                                <li><strong>Nomor Kode Angka Rutin:</strong> 0916</li>
+                                <li><strong>Guru Tetap dan GTT:</strong> 61 / 5</li>
+                                <li><strong>Jumlah Pegawai:</strong> 27 orang</li>
+                                <li><strong>Rumpun Keahlian:</strong>
+                                    <ul>
+                                        <li>Keuangan (Program Studi Akuntansi)</li>
+                                        <li>Perdagangan (Program Studi Manajemen Pemasaran / Manajemen Bisnis)</li>
+                                        <li>Administrasi Perkantoran (Program Studi Ketatausahaan / Kesekretarisan)</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>Pada tahun ajaran 1997/1998, nomenklatur SMEA Negeri Tangerang resmi berubah nama menjadi <strong>SMK Negeri 1 Tangerang</strong>.</li>
+                        <li>Pada tanggal 16 Juli 2004, terjadi pergantian Kepala Sekolah dari Drs. H. Panut (pensiun) kepada Drs. Heryana berdasarkan SK Walikota Tangerang Nomor 821/Kep.88.BKD/2004.</li>
+                        <li>Mulai tahun ajaran 2004/2005, SMK Negeri 1 Tangerang membuka 2 Kelompok Keahlian:
+                            <ul>
+                                <li><strong>Bisnis dan Manajemen:</strong>
+                                    <ul>
+                                        <li>Administrasi Perkantoran (Terakreditasi A)</li>
+                                        <li>Akuntansi (Terakreditasi A)</li>
+                                        <li>Penjualan / Pemasaran (Terakreditasi A)</li>
+                                    </ul>
+                                </li>
+                                <li><strong>Teknik Informatika:</strong>
+                                    <ul>
+                                        <li>Multimedia (Terakreditasi B)</li>
+                                        <li>Teknik Komputer dan Jaringan (Terakreditasi B)</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>Tanggal 5 Januari 2015, Bapak Drs. H. Heryana diangkat menjadi Pengawas, dan posisi Kepala Sekolah dilanjutkan oleh Bapak Drs. H. Surya Mulyana hingga pertengahan Februari 2016.</li>
+                        <li>Kepala Sekolah berikutnya yang pernah dan sedang memimpin SMKN 1 Tangerang:
+                            <ul>
+                                <li>Ibu Ariasni</li>
+                                <li>Ibu Retno Andayani (PLT)</li>
+                                <li>Bapak Hirafahtia</li>
+                                <li>Ibu Endah Resmiati (PLT)</li>
+                                <li>Bapak Arif Prio Wibowo, M.Pd (mulai bertugas sejak 16 Desember 2022 hingga sekarang)</li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <hr>
+
+                    <h3>Struktur Pendidik & Tenaga Kependidikan</h3>
+                    <ul>
+                        <li><strong>Arif Prio Wibowo, M.Pd</strong> (Kepala Sekolah)</li>
+                        <li><strong>Daftar Guru-Guru:</strong>
+                            <ul>
+                                <li>Drs. Aep Gumiwa, M.M.</li>
+                                <li>Drs. Suparno</li>
+                                <li>Dra. Edeh Kurniati</li>
+                                <li>Herlina, S.Pd.</li>
+                                <li>Dra. Lilis Huzanah</li>
+                                <li>Dra. Yenny Rismayani</li>
+                                <li>Dra. Mimin Aminah</li>
+                                <li>Ma’mun, S.Pd.</li>
+                                <li>Dra. Ropiah</li>
+                                <li>Drs. Syafrinal</li>
+                                <li>Sukimin, S.Pd.</li>
+                                <li>Waluyo, S.Pd.</li>
+                                <li>Dwi Haryanto, S.Pd.</li>
+                                <li>Era Marjianti, S.Pd.</li>
+                                <li>Neneng Kurniamala, S.Pd.</li>
+                                <li>Mawan Agus Nugroho, S.Kom., M.Kom.</li>
+                                <li>Ruhimat, S.Pd., M.M.</li>
+                                <li>Venny Tauresia, M.Pd.</li>
+                                <li>Drs. John Jedi Roland</li>
+                                <li>Sri Sumartinah, S.S.</li>
+                                <li>Dwi Dona Kustiawati, S.Pd., M.Pd.</li>
+                                <li>Sumyati, S.Pd., M.Pd.</li>
+                                <li>Dra. Rini Saraswati, M.Pd.</li>
+                                <li>Ishako Iskandar, S.Kom.</li>
+                                <li>Farita Nurmala, M.Pd.</li>
+                                <li>Aah Hilyati, S.Pd.</li>
+                                <li>Rokilah, S.Pd.</li>
+                                <li>Meslise Rahnila, S.Pd.</li>
+                                <li>Drs. Khairu Umat</li>
+                                <li>Drs. Agus Herawan, M.M.</li>
+                                <li>Muiyah, S.Pd.</li>
+                                <li>Hery Faturochman, S.S.</li>
+                                <li>Ika Rosika, S.Pd.</li>
+                                <li>Ritayanah Tenrijiji, S.Pd.</li>
+                                <li>Tuti Alawiyah, S.Pd.</li>
+                                <li>Onnoveri, S.Pd.</li>
+                                <li>Dra. Sudiyanti</li>
+                                <li>Drs. Rasman Siahaan, M.M.</li>
+                                <li>Jaja, S.Pd.</li>
+                                <li>Drs. Marganda Simamora</li>
+                                <li>Else Wijayanti, S.Pd.</li>
+                                <li>Enny Fitriani, S.Pd.</li>
+                                <li>Mira Cristiana, S.Kom.</li>
+                                <li>Ade Sevianto Dwitama, S.Si.</li>
+                                <li>Yanti Ariani, S.Pd.</li>
+                                <li>Arlia Noviana, S.Pd.I.</li>
+                                <li>Siti Fauzia Rahmah, S.Pd.</li>
+                                <li>Suherman, S.Kom.</li>
+                                <li>Sugianto, S.Pd.</li>
+                                <li>Dedi Agustian, S.Pd.</li>
+                                <li>Drs. Ricky Maxie Suawa</li>
+                                <li>Drs. Rakhmat Gunawan</li>
+                                <li>Sudiro, S.Pd.K.</li>
+                                <li>Muhammad Ikhsan Fadhilah, S.Pd.</li>
+                                <li>Ganjar Candra Sumindar, S.Pd.</li>
+                                <li>Asri Marheni, S.Pd.</li>
+                                <li>Hendrik Herdiansyah, M.Kom.</li>
+                                <li>Budi, S.Si., M.Kom.</li>
+                                <li>Drs. Tedi Sanjaya</li>
+                                <li>Imas Maesyaroh, S.Pd.</li>
+                                <li>Cartika Wibowo, S.Kom.</li>
+                                <li>Rifka Hijah Aryani, M.Kom.</li>
+                                <li>Laili Damayanti, S.Pd.I.</li>
+                                <li>Fitri Roeri Zuliwati, M.Pd.</li>
+                                <li>Heru Prasetiawan, M.Kom.</li>
+                                <li>Inne Pratiwi, S.Pd.</li>
+                                <li>Suci Rahmadiah, S.E.</li>
+                                <li>Putri Pramita Swari, S.Pd.</li>
+                                <li>Anjar Tirtayansyah, S.Kom.</li>
+                                <li>Habibatulah Rifah Mahyunda, S.Pd.</li>
+                                <li>Ulfia Nurjanah</li>
+                                <li>Ariani Devita Sari</li>
+                                <li>Siti Nurjanah</li>
+                                <li>Iwan Mulyawan, S.Kom.</li>
+                                <li>Rita Febriana Kurahman, S.Pd.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                
+                <p style="margin-top: 20px;">
+                    <a href="index.html" style="color: #7c3aed; font-weight: bold;">← Kembali ke Beranda</a>
+                </p>
+            </td>
+
+            <!-- Bagian Samping Kanan (Tautan Eksternal) -->
+            <td width="25%" valign="top">
+                <p><strong>★ Tautan Eksternal</strong></p>
                 <ol>
                     <li><a href="https://axvirx1234.github.io/Axvirx.github.io/">Website Ilmira</a></li>
-                    <li><a href="https://www.github.com">Github</a></li>
-                    <li><a href="https://www.wikipedia.org">Wikipedia</a></li>
-                    <li><a href="https://www.w3schools.com">W3Schools</a></li>
-                </font>
+                    <li><a href="https://instagram.com/0nly.ilmira">Instagram</a></li>
+                    <li><a href="https://tiktok.com/axvirx_">Tiktok</a></li>
+                    <li><a href="https://www.hoyolab.com/accountCenter/postList?id=351200453">Hoyolab</a></li>
                 </ol>
             </td>
         </tr>
+
+        <!-- Bagian Copyright Bawah -->
         <tr>
-            <td colspan="2" align="right" bgcolor="#261f3d">
-                <font color="white"><small>&copy; Copyright Ilmira Ramadhina Putri, 2026.</small></font>
+            <td colspan="2" align="right">
+                <small>&copy; Copyright Ilmira Ramadhina Putri, 2026.</small>
             </td>
         </tr>
     </table>
+    <p>&nbsp;</p>
 </body>
-    
-</html>
 </html>
